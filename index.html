@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <header>
+      <div class= "container">
+        <img src="zoology.png" alt="logo" class="logo">
+        <div id="navbar">
+        <nav>
+         <ul>
+          <li><a href="#">Our work</a></li>
+         <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Staff</a>
+    <div class="dropdown-content">
+      <a href="#">Jesse Lin</a>
+      <a href="#">Liam Williams</a>
+      <a href="#">Joshua Bark</a>
+    </div>
+  </li>
+         <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Location</a>
+    <div class="dropdown-content">
+      <a href="#">Something</a>
+      <a href="#">Something</a>
+    </div>
+  </li>
+          <li ><a href="#">Animals</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Donate</a></li>
+         </ul>
+        </nav>
+       </div>
+      </header>
+      <div class="overlay">
+      <div class="sidenav">
+     <a href="#">Home</a>
+      <a href="#">Home</a>
+      <a href="#">Home</a>
+      <a href="#">Home</a>
+     </div>
+
+        <video  class="video" autoplay loop playsinline    style="pointer-events: none;">
+         <source src="Jellyfish.mp4" type="video/mp4" height="1080px" width="1920px"/>
+         </video>
+        <h1 class="heading">Zoology</h1>
+       <h2 class= "sub-heading">We are hiring today</h2>
+      </div>
+     <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="tiger1.jpg" style="width:100%">
+    <div class="text">Tiger going for a swim after a long day </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="real.jpg" style="width:100%">
+    <div class="text">Panda taking a rest after a large meal</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="seal1.jpg" style="width:100%">
+    <div class="text">Seals</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="lemur.jpg" style="width:100%">
+    <div class="text">Lemur</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+     <script src="script.js"></script>
+  </body>
+</html>
